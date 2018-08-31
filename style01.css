@@ -1,0 +1,49 @@
+body {
+	margin-left:auto;   
+    margin-right:auto;   
+    width:800px;
+    background-image: url("");
+
+}
+
+.header a {
+	font-size: 35px;
+	padding-left: 500px;
+}
+
+h1 {
+	font-size: 35px;
+	float: left;
+	font-family: Century Gothic;
+	color: orange;
+}
+
+h3 {
+	font-family: Book Antiqua;
+}
+
+.contents {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.contents p {
+	font-size: 20px;
+}
+
+input {
+	width: 150px;
+	height: 50px;
+}
+
+input#submit_button {
+    padding: 15px 40px;
+    font-size: 1.2em;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 150px;
+}

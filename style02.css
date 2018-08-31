@@ -1,0 +1,40 @@
+body {
+	margin-left:auto;   
+    margin-right:auto;   
+    background-image: url("Tokyo.jpeg");
+    background-size: cover;
+}
+
+h1 {
+	font-size: 35px;
+	float: left;
+	font-family: Century Gothic;
+	color: orange;
+	padding-left: 50px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.header a {
+	font-size: 25px;
+	margin-left: 1200px;
+	color: white;
+	margin-top: 30px;
+}
+.fa-2x {
+	margin-top: 50px;
+}
+
+.contents {
+	padding-top: 50px;
+	color: white;
+	padding-left: 400px;
+}
+
+input#submit_button {
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background-color: lightgreen;
+}
