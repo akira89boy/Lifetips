@@ -17,7 +17,7 @@
     <div class="contents">
     	<form action="test2.php" method="POST">
     		<h2>Forgot your password?</h2>
-    		<p>Email address<br> <input type="text" name="email" required class="address"><br></p>
+    		<p>Email address<br> <input type="text" name="email" minlength="4" maxlength="46" required class="address"><br></p>
         	<input id="submit_button" type="submit" value="パスワードのメールを送信する"><br><br>
             <a href="Login.php">ログイン画面へ戻る<br><br></a>
         </form>

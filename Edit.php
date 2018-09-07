@@ -164,16 +164,9 @@ $("#fileToUpload").change(function() {
 
     <div class="contents">
     		<h3>Profile</h3>
-    		<p>Name: <input type="text" name="username" value="<?php echo $_SESSION['username']; ?>" required><br></p>
+    		<p>Name: <input type="text" name="username" minlength="2" maxlength="30" value="<?php echo $_SESSION['username']; ?>" required><br></p>
         	<p>Email Address: <input type="email" name="email" value="<?php echo $_SESSION['email']; ?>" required><br></p>
-        	<p>Password: <input type="text" name="password" value="<?php echo $_SESSION['password']; ?>" required><br><br><br></p>
+        	<p>Password: <input type="text" name="password" minlength="4" maxlength="13" value="<?php echo $_SESSION['password']; ?>" required><br><br><br></p>
             <input id="submit_button" type="submit" name="editprofile" value="登録する" style="width: 200px;font-size: 25px;background-color: #FE2E2E; color: white; font-family:BatangChe; border-radius: 30px; cursor: pointer;}"><br><br><br>
         </form>
   	</div>
-
-<?php
-
-
-
-
-?>

@@ -58,8 +58,8 @@ if(isset($_POST["login"])) {
     <div class="box">
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>"" method="POST">
             <h3>Login</h3>
-            <input type="text" placeholder="Username" name="username" required/>
-            <input type="text" placeholder="Password" name="password" required/>
+            <input type="text" placeholder="Username" name="username" minlength="2" maxlength="30" required/>
+            <input type="text" placeholder="Password" name="password" minlength="4" maxlength="13" required/>
             <input type="hidden" name="userid" value="$userid">
             <button type="submit" name="login">Login</button>
             <a href="Register.php">Not a member?</a><br><br>

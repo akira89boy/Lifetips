@@ -22,9 +22,9 @@ include 'db.connect.php';
     <div class="contents">
     	<form action="Insert.php" method="POST">
     		<h2>Life Tipsへようこそ！登録する</h2>
-    		<p>名前: <input type="text" name="username" required><br></p>
-        	<p>メールアドレス: <input type="email" name="email" required><br></p>
-        	<p>パスワード: <input type="text" name="password" required><br></p>
+    		<p>名前: <input type="text" name="username" minlength="2" maxlength="30" required><br></p>
+        	<p>メールアドレス: <input type="email" name="email" maxlength="46" required><br></p>
+        	<p>パスワード: <input type="text" name="password" minlength="4" maxlength="13" required><br></p>
         	<h3>Life Tipsに登録する</h3>
         	<input id="submit_button" type="submit" name="submit" value="登録する" style="width: 200px;font-size: 25px;background-color: #FFFF00; color: black; font-family:HG行書体; border-radius: 30px; cursor: pointer;"><br><br><br>
         </form>

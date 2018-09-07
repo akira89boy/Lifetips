@@ -23,8 +23,6 @@ if($result->num_rows > 0){
 
 echo $conn->error;
 
-echo 
- 
 echo "mail sent at " . time();
 
 ?>
