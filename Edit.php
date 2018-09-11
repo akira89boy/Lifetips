@@ -96,7 +96,7 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 
 if ($image == ""){
-    $sql = "UPDATE people SET username = '$username', email = '$email', password = '$password', WHERE userid ='$userid'";
+    $sql = "UPDATE people SET username = '$username', email = '$email', password = '$password' WHERE userid ='$userid'";
 } else {
     $sql = "UPDATE people SET username = '$username', email = '$email', password = '$password', image = '$image' WHERE userid='$userid'";
 }
